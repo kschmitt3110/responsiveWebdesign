@@ -30,7 +30,7 @@ renderer.setSize(canvas.offsetWidth, canvas.offsetHeight);
 
 var cube;
 const loader = new THREE.TextureLoader();
-const textur = loader.load('../lui.png', (textur)=>{
+const textur = loader.load('lui.png', (textur)=>{
     textur.needsupdate = true;
     cube.scale.set(1.0,textur.image.height/textur.image.width,1.0);
 });

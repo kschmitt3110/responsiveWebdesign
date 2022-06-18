@@ -100,10 +100,10 @@ function setzeMaterial (material) {
       document.getElementById("bild3").src = "LVBildMittel3.png";
       document.getElementById("bild4").src = "LVBildMittel4.png";
     }else{
-      document.getElementById("bild1").src = "LVBILD1FINAl.png";
-      document.getElementById("bild2").src = "LVBILD2FINAl.png";
-      document.getElementById("bild3").src = "LVBILD3FINAl.png";
-      document.getElementById("bild4").src = "LVBILD4FINAl.png";
+      document.getElementById("bild1").src = "LVBILD1FINAL.png";
+      document.getElementById("bild2").src = "LVBILD2FINAL.png";
+      document.getElementById("bild3").src = "LVBILD3FINAL.png";
+      document.getElementById("bild4").src = "LVBILD4FINAL.png";
     }
       document.getElementById("materialBtn").innerHTML = "Monogram Canvas"
   }
@@ -119,10 +119,10 @@ function setzeMaterial (material) {
       document.getElementById("bild3").src = "LVBildMittel7.png";
       document.getElementById("bild4").src = "LVBildMittel8.png";
     }else{
-      document.getElementById("bild1").src = "LVBILD5FINAl.png";
-      document.getElementById("bild2").src = "LVBILD6FINAl.png";
-      document.getElementById("bild3").src = "LVBILD7FINAl.png";
-      document.getElementById("bild4").src = "LVBILD8FINAl.png";
+      document.getElementById("bild1").src = "LVBILD5FINAL.png";
+      document.getElementById("bild2").src = "LVBILD6FINAL.png";
+      document.getElementById("bild3").src = "LVBILD7FINAL.png";
+      document.getElementById("bild4").src = "LVBILD8FINAL.png";
     }
     document.getElementById("materialBtn").innerHTML = "Damier Ebene Canvas"
   }
