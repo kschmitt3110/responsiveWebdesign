@@ -285,3 +285,7 @@ padding-bottom: 3px;
     width: 100%;
     background-color: #f6f5f3;
 }
+
+.tabelleGroesse td {
+    width: 33%;
+}
