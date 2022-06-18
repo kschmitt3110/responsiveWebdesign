@@ -1,0 +1,287 @@
+@font-face {
+    font-family: louisFett;
+    src: url(./LouisVuitton-Bold.woff2);
+}
+@font-face {
+    font-family: louisNormal;
+    src: url(./LouisVuitton-Demi.woff2);
+}
+@font-face {
+    font-family: louisSmall;
+    src: url(./LouisVuitton-LightOblique.woff2);
+}
+@font-face {
+    font-family: louisRegular;
+    src: url(./LouisVuitton-Regular.woff2);
+}
+.global {
+    background-color: white;
+    font-family: louisNormal;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    height: 50px;
+}
+
+.left {
+    float: left;
+    width: 33.33%;
+    padding-top: 25px;
+}
+
+.center {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.right {
+    float: left;
+    text-align: right;
+    width: 33.33%;
+    padding-top: 18px;
+}
+
+.topnav a{
+    padding: 10px;
+}
+
+.fullWidthImage {
+    width: 95%;
+    padding: 2.5%;
+}
+
+.halfWidthImage {
+    float: left;
+    width: 45%;
+    padding: 2.5%;
+}
+
+.infoText {
+    text-align: center;
+    color: #19110b;
+}
+
+.artikelNummer{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.artikelName{
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.configurator{
+    margin:auto;
+    width:fit-content;
+}
+
+.configurator table {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a8a59e;
+    border-top: 1px solid #a8a59e;
+    font-size: x-large;
+}
+
+.configuratorTable tr {
+
+}
+
+.configuratorTable th, td{
+
+}
+
+.option {
+    font-weight: bold;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 14px;
+}
+
+.auswahl{
+    font-family: louisRegular;
+    
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+}
+
+.preis{
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.buttons table{
+    margin: 0 auto;
+    border: 0;
+}
+
+.buttons th, .buttons td{
+    border: 0;
+    min-width: 400px;
+    max-width: fit-content;
+}
+
+.buttonKaufen{
+    background-color: #19110b;
+    color: white;
+    border:2px solid #19110b;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: x-large;
+    transition-duration: 0s;
+}
+
+.buttonKaufen:hover{
+    background-color: white;
+    color: #19110b;
+}
+
+
+.buttonPruefen{
+    background-color: white;
+    color: #19110b;
+    border:2px solid #19110b;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    font-size: x-large;
+    transition-duration: 0s;
+}
+
+.buttonPruefen:hover{
+    color:white;
+    background-color: #19110b;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.searchVar {
+    background-color: lightgray;
+}
+.leftSearch {
+float: left;
+width: 9.9%;
+height: 1px;
+}
+.centerSearch {
+float: left;
+width: 80%;
+background-color: #f6f5f3;
+text-align: left;
+height: 25px;
+padding-top: 0px;
+}
+.centerSearch input {
+width: 70%;
+background-color: transparent;
+border: none;
+padding-bottom: 3px;
+}
+.rightSearch {
+    float: left;
+    width: 9.9%;
+}
+  .modalSearch {
+    width: 100%;
+    background-color: white;
+    height: 20%;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.canvas {
+    width: 100%;
+    min-height: 400px;
+    touch-action: none;
+}
+
+.svg-icon.search-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+.beschreibung {
+    padding-top: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin:auto;
+    font-size: 23px;
+}
+
+.details {
+    padding-top: 30px;
+    font-family: louisSmall;
+    font-size: 20px;
+}
+
+.detailList {
+    margin:auto;
+    max-width: fit-content;
+    min-width: 500px;
+    list-style-position:outside;
+}
+
+.informationen td{ 
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    height: 80px;
+}
+.informationen {
+    width: 100%;
+    background-color: #f6f5f3;
+}

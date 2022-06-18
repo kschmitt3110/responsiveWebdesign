@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+
+    <body class="global">
+        <div class="topnav" widht="100%">
+            <div class="left"> <img id="SearchButton" src="SucheEmoji.png" style="height: 20px;"></div>
+            <div class="center"> <a href="https://de.louisvuitton.com/deu-de/homepage"><img src= "LouisVuitton.JPG" style="height: 60px;"> </a></div>
+            <div class="right"><a href="https://de.louisvuitton.com/deu-de/kaufen"> <img src="WarenkorbEmoji.png" style="height: 22px;"></a></div> 
+        </div>  
+     
+        <div class="fullWidthImage">
+            <img id="bild1" src="LVBildMIttel1.png" width=100% loading="lazy"/>
+        </div>
+   
+        <div class="halfWidthImage">
+            <img id="bild2" src="LVBildMIttel2.png" width=100% loading="lazy"/>
+        </div>
+        <div class="halfWidthImage">
+            <img id="bild3" src="LVBildMIttel3.png" width=100% loading="lazy"/>
+
+        </div>
+        <div class="fullWidthImage">
+            <img id="bild4" src="LVBildMIttel4.png"  width=100% loading="lazy"/>
+        </div>
+
+        <div class="infoText">
+            <div class="artikelNummer">M42688</div>
+            <div class="artikelName">QUADER 70</div>
+
+            <div class="configurator">
+                <table class="configuratorTable">
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="option">Material</div>
+                        </td>
+                        <td>
+                            <div class="auswahl" id="materialBtn">Monogram Canvas</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="option">Weitere Größen</div>
+                        </td>
+                        <td>
+                            <div class="auswahl" id="sizeBtn">Quader 70</div>
+                        </td>
+                    </tr>
+            
+                </table>
+                
+            </div>
+            <div id="preis1" class="preis">  
+                3.300,00€
+            </div>
+
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td>
+                            <button class="buttonKaufen">Zur Auswahl hinzufügen</button> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="buttonPruefen">Verfügbarkeit in einem Geschäft prüfen</button>
+                        </td>
+                    </tr>
+                </table>
+                   
+                
+            </div>
+
+                <div class="beschreibung">
+                Aus einer bemerkenswerten Zusammenarbeit zwischen dem Haus Louis Vuitton und Katharina Schmitt, der einflussreichsten Industriedisignerin ihrer Generation, entstand dieser Quader für Kunstliebhaber des 21. Jahrhunderts.
+                Das Modell ist aus ikonischem Canvas mit einem breiten Rollgestell aus Aluminium gefertigt.
+                </div>
+
+
+                
+                <div class="details">
+                    Details: <br/>
+                    <div class="detailList">
+                        <ul>
+                            <li>46 x 68 x 26 cm <br> (Breite x Höhe x Tiefe)</li>
+                            <li>Gewicht: 14 kg</li>
+                            <li>Ausgesprochen leichtes Canvas</li>
+                            <li>Besatz aus Rindsleder</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <p style="font-size: smaller"> Produkt wird in Italien angefertigt.</p>
+                </div> 
+
+
+        </div>
+
+
+        <canvas class="canvas" id="renderCanvas">
+            bla
+        </canvas>
+
+        <table class="informationen">
+            <colgroup> 
+                <col span="1" style ="width: 80px;"> 
+                <col span="1"> 
+            </colgroup>
+            <tbody> 
+            <tr>
+                <td>
+                    <img src="./Zahlungsinfo.png" width="40px"> 
+                </td>
+                <td>
+                    Zahlungsinformation
+                    <br>
+                    Sichere Zahlung per Apple Pay, Kreditkarte oder PayPal
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./Versandinfo.png" width="40px">
+                </td>
+                <td>
+                    Versandinformation
+                    <br>
+                    Kostenfreie Lieferung nach Hause oder in einem Geschäft ihrer Wahl
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./Widerruf.png" width="40px">
+                </td>
+                <td>
+                    Widerrufsrecht & Umtausch
+                    <br>
+                    Kostenfreie Abholung zu Hause oder Abgabe in einem Geschäft
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./Abholung.png" width="40px">
+                </td>
+                <td>
+                    Abholung im Geschäft
+                    <br>
+                    Weitere Informationen zur Lieferung in ein Geschäft ihrer Wahl
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./Kontakt.png" height="40px">
+                </td>
+                <td>
+                    Kontakt
+                    <br>
+                    Kontaktieren Sie in unseren Kundenservice 
+                </td>
+            </tr>
+        </tbody>
+        </table>
+
+        <!--Ab hier Modal boxes-->
+        <div id="materialSelect" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="closeMaterial">&times;</span>
+              <p>Bitte wählen Sie ein Material</p>
+              <table> 
+                  <tr>
+                      <td>
+                          <div id="Material1" class="MaterialAuswahl"> 
+                              <img class="ProduktBildMiniatur" src=LVBILD1FINAL.png style="width: 250px;"> 
+                            <br>
+                            Monogram Canvas
+                        
+
+                          </div>
+                      </td>
+                      <td>
+                        <div id="Material2" class="MaterialAuswahl">
+                            <img class="ProduktBildMiniatur" src=LVBILD5FINAL.png style="width: 250px;"> 
+                              <br>Damier Ebene Canvas</div>
+                    </td>
+                  </tr>
+              </table>
+            </div>
+          
+          </div>
+
+          <div id="sizeSelect" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="closeSize">&times;</span>
+              <p>Bitte wählen Sie eine Größe</p>
+              <table> 
+                  <tr>
+                      <td>
+                          <div id="groesse1" class="GroessenAuswahl">
+                              <img class="ProduktBildMiniatur" src=LVBildKlein1.png style="width: 250px;"> 
+                              <br>
+                              Quader  50
+                          </div>
+                      </td>
+                      <td>
+                          <div id="groesse2" class="GroessenAuswahl">
+                            <img class="ProduktBildMiniatur" src=LVBildMittel1.png style="width: 250px;"> 
+                            <br>
+                            Quader 70   
+                          </div>
+                      </td>  
+                      <td>
+                        <div id="groesse3" class="GroessenAuswahl">
+                            <img class="ProduktBildMiniatur" src=LVBILD1FINAL.png style="width: 250px;"> 
+                            <br>
+                            Quader 100   
+                        </div>
+                    </td>                
+                 </tr>
+              </table>
+            </div>
+           
+          </div>
+          <div id="Searchbox" class="modal"> 
+          <div class="modalSearch">
+                <div class="SearchVar"> 
+                  <div class="leftSearch"> </div>
+                  <div class="centerSearch">
+                        <table>
+                            <tr>
+                                <td><svg class="svg-icon search-icon" role="img" viewBox="0 0 19.9 19.7"><g class="search-path" fill="none" stroke="#404040"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg> </td>
+                                <td><input placeholder= "Suchen Sie nach..." type="text"></td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                  <div class="rightSearch"> <span class="closeSearch">&times;</span>
+                </div>  
+          </div>
+        </div> 
+        </div>
+            <script type="module" src="bundle/bundle.js"></script>       
+            <script type="module" src="quader.js" ></script>
+            <script type="module" src="quaderSelection.js"></script>
+    </body>
+      
+</html>
